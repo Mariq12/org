@@ -37,3 +37,47 @@ Inicia el proyecto en  [http://localhost:3000](http://localhost:3000)
 ### Solución
 
     npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
+## Proceso para subir a GitHub Pages
+1. Ejecutar:
+npm i gh-pages
+2. Ir a package.json
+    
+Agregar homepage
+
+    {
+    "name": "org",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "http://mariq12.github.io/org",
+    ...
+    }
+
+3.	Ejecutar 
+
+    npm run build
+
+*Se crea la carpeta build*
+
+4.	Ir a package.json
+
+    a.	Agregar predeploy
+    b.	Agregar Deploy
+
+        "scripts": {
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build",
+            ...
+        }
+
+5.	Subir a GitHub
+
+        a.	git status
+        b.	git add .
+        c.	git commit -m “gh-pages added”
+        d.	git push
+        e.	npm run deploy
+
+## Ver Demo
+
+GitHub Pages: https://mariq12.github.io/org/
