@@ -82,4 +82,4 @@ Agregar homepage
 ### Parte 1
 ![org-part1](https://github.com/Mariq12/org/assets/101030215/66a8d71a-cc8c-42fa-aaf5-96ba9279cf48)
 
-GitHub Pages: https://mariq12.github.io/org/
+Ver Demo en [GitHub Pages](https://mariq12.github.io/org/).
