@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--cor-header);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    height: var(--header-height);
+}
+/* *Media query for small screens */
+@media (max-width: 768px) {
+    .header-image {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    .header-image {
+        width: 100%;
+        height: auto;
+    }
+}
