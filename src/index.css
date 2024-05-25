@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Prata', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --cor-header: #6278F7;
+  --cor-form-bg: #f7f7f7;
+  --cor-form-text: #212121;
+  --cor-second-text: #FFFFFF;
+  --cor-hover-btn: #95FFD4;
+  --cor-option: #ccc;
+}
+
+:root {
+  --header-height: 34.75rem;
+}
+
+/* *Estilos de TextField y OptionsList* */
+.global-field {
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.global-field label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+.global-field select,
+.global-field input {
+    width: 100%;
+    background-color: var(--cor-second-tex);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+    border: none;
+    padding: 30px 20px;
+    outline-color: var( --cor-header);
+    font-size: 16px;
+    box-sizing: border-box;
+    appearance: none;
+    padding-right: 40px; 
+    cursor: pointer;
+}
+
+/* *Media query for smaller screens */
+@media (max-width: 768px) {
+  .global-field select,
+  .global-field input {
+      padding: 20px 15px;
+      font-size: 14px; 
+  }
+  .global-field label {
+      font-size: 16px;  
+  }
+}
+@media (max-width: 480px) {
+  .global-field select,
+  .global-field input {
+      padding: 15px 10px; 
+      font-size: 12px; 
+  }
+  .global-field label {
+      font-size: 14px;  
+  }
 }

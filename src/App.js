@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Header from './components/header/Header';
+import Form from './components/form/Form';
+import MyOrg from './components/my-org/MyOrg';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  const [showForm, updateShow] = useState(true)
+
+  // Operador Ternario --> condicion ? seMuestra : noSeMuestra
+  // Cortocircuito
+  // Condición && seMuestra
+  const changeShow = () => {
+    updateShow(!showForm)
+  } 
+
+    return (
+      <>
+      <Header/>
+      {/*showForm ? <Form/> : <></>*/}
+      {showForm && <Form/>}
+      <MyOrg changeShow={changeShow} />
+      </>
+    );
 }
 
 export default App;
