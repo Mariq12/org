@@ -1,17 +1,21 @@
 # <p align="center">Org</p>
 Proyecto desarrollado en los cursos React G6 - ONE.
-
+# Lista de Cursos
 El proyecto esta compuesto por 2 partes:
 
-- ✔️ <span style="color: blue;">**Curso de React: desarrollando con JavaScript:**</span> desarrollo del Header y formulario para crear colaborador.
-- [ ] <span style="color: blue;">**Curso de React: como los componentes funcionan:**</span> formulario para crear un nuevo equipo y footer
+![Completado](https://img.shields.io/badge/status-completado-brightgreen) 
+- ✔️ **Curso de React: desarrollando con JavaScript:** desarrollo del Header y formulario para crear colaborador.
+
+![En Progreso](https://img.shields.io/badge/status-en%20progreso-blue)
+- [ ] **Curso de React: como los componentes funcionan:** formulario para crear un nuevo equipo y footer.
+
 ## Comando
 
 ### `npm start`
 
 Inicia el proyecto en  [http://localhost:3000](http://localhost:3000) 
 
-## Inconvenientes
+## <p align="center">Inconvenientes</p>
 ### Advertencia
 
     Note that the development build is not optimized.
