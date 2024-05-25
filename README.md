@@ -1,5 +1,5 @@
 # <p align="center">Org</p>
-Proyecto desarrollado en los cursos React G6 - ONE.
+Proyecto React desarrollado en los cursos React G6 - ONE.
 # Lista de Cursos
 El proyecto esta compuesto por 2 partes:
 
