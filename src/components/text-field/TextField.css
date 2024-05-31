@@ -1,0 +1,16 @@
+.text__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text__container span {
+    font-size: 1rem;
+}
+
+#field-color input {
+    height: 2rem;
+    width: 6rem;
+    padding: 0;
+    cursor: pointer;
+}

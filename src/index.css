@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   font-family: 'Prata', serif;
 }
@@ -10,31 +10,34 @@ body {
   --cor-second-text: #FFFFFF;
   --cor-hover-btn: #95FFD4;
   --cor-option: #ccc;
+  --cor-icon-delete: rgb(255, 0, 0);
+  --cor-brillo: gold;
 }
 
 /* *Estilos de TextField y OptionsList* */
 .global-field {
-    margin: 24px 0;
+    margin: 1.5rem 0;
     font-family: 'Montserrat', sans-serif;
 }
 .global-field label {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 .global-field select,
-.global-field input {
+.global-field input,
+.global__color__container {
     width: 100%;
-    background-color: var(--cor-second-text);
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+    background: var(--cor-second-text);
+    box-shadow: 0.625rem 0.625rem 1.875rem rgba(0, 0, 0, 0.06);
     border: none;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     outline-color: var( --cor-header);
-    font-size: 16px;
+    font-size: 1rem;
     box-sizing: border-box;
     appearance: none;
-    padding-right: 40px; 
+    padding-right: 2.5rem; 
     cursor: pointer;
 }
