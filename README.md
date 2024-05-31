@@ -9,6 +9,9 @@ El proyecto esta compuesto por 2 partes:
 ![En Progreso](https://img.shields.io/badge/status-en%20progreso-blue)
 - [ ] **Curso de React: como los componentes funcionan:** formulario para crear un nuevo equipo y footer.
 
+---
+## <p align="center">*Primera parte*</p>
+
 ## Comando
 
 ### `npm start`
@@ -81,5 +84,63 @@ Agregar homepage
 ## Ver Demo
 ### Parte 1
 ![org-part1](https://github.com/Mariq12/org/assets/101030215/66a8d71a-cc8c-42fa-aaf5-96ba9279cf48)
+
+---
+## <p align="center">*Segunda parte*</p>
+
+### Comandos
+Ejecutar los comandos:
+
+    npm i react-icons
+
+Se instala el paquete de [React icons](https://react-icons.github.io/react-icons/)
+
+---
+    npm i hex-to-rgba
+
+Se instala el paquete de [hex-to-rgba](https://www.npmjs.com/package/hex-to-rgba). Lo que hace es tomar un color hexadecimal y lo convierte en un color RGBA, pero con opacidad.
+
+---
+    npm i uuid
+
+Se instala el paquete de [uuid](https://www.npmjs.com/package/uuid). Lo que hace es generar un ID unico para cada elemento.
+
+Importar:
+
+    import { v4 as uuidv4 } from 'uuid';
+
+---
+### *Opcional*
+
+Se puede instalar el paquete;
+
+    npm install -g serve
+
+
+Este paquete esará de forma global.
+Ejecutar el comando:
+
+    serve -s build
+
+ Permite desplegar y probar la aplicación en el navegador.
+
+---
+
+**🚨 Nota Importante:**
+
+Se esta generando un identificador único porque los datos estan del lado de la aplicación. Al tener los datos en un servidor o en una Base de Datos, se generar un ID único por cada elemento y ya no se tendría esa responsbilidad.
+
+---
+
+#### Finalmente
+
+Una vez subidos los cambios a GitHub se ejecuta
+
+    npm run deploy
+
+---
+## Ver Demo
+### Parte 2
+
 
 Ver Demo en [GitHub Pages](https://mariq12.github.io/org/).
