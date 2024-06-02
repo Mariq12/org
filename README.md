@@ -6,8 +6,8 @@ El proyecto esta compuesto por 2 partes:
 ![Completado](https://img.shields.io/badge/status-completado-brightgreen) 
 - ✔️ **Curso de React: desarrollando con JavaScript:** desarrollo del Header y formulario para crear colaborador.
 
-![En Progreso](https://img.shields.io/badge/status-en%20progreso-blue)
-- [ ] **Curso de React: como los componentes funcionan:** formulario para crear un nuevo equipo y footer.
+![Completado](https://img.shields.io/badge/status-completado-brightgreen) 
+- ✔️ **Curso de React: como los componentes funcionan:** formulario para crear un nuevo equipo y footer.
 
 ---
 ## <p align="center">*Primera parte*</p>
@@ -142,5 +142,6 @@ Una vez subidos los cambios a GitHub se ejecuta
 ## Ver Demo
 ### Parte 2
 
+![org-parte2](https://github.com/Mariq12/org/assets/101030215/730ad2d8-ba32-4cb2-ad14-c3f353480916)
 
 Ver Demo en [GitHub Pages](https://mariq12.github.io/org/).
